@@ -3,17 +3,6 @@
     --sombra-inset: rgba(120, 98, 201, 0.473);
 }
 
-@media (max-width: 600px) {
-    .header {
-        justify-content: flex-start;
-        padding-left: 2%;
-    }
-    
-    .header__h1 {
-        font-size: 14pt;
-    }
-}
-
 @media (max-width:1000px) {
     .header {
         position: relative;
@@ -33,5 +22,27 @@
         border: none;
         background-color: transparent;
         cursor: pointer;
+    }
+}
+
+@media (max-width: 600px) {
+    .header {
+        justify-content: flex-start;
+        padding-left: 2%;
+    }
+    
+    .header__h1 {
+        font-size: 14pt;
+    }
+}
+
+@media (max-width: 400px) {
+    .header {
+        justify-content: flex-start;
+        padding-left: 2%;
+    }
+    
+    .header__h1 {
+        font-size: 12pt;
     }
 }
