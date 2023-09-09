@@ -1,0 +1,9 @@
+:root {
+    --bg-header: rgb(81, 43, 212);
+}
+
+.header__imgLogo {
+    width: 50px;
+    margin-right: 1%;
+}
+

@@ -1,0 +1,14 @@
+:root {
+    --bg-header: rgb(81, 43, 212);
+}
+
+@media (max-width: 600px) {
+    .header {
+        justify-content: flex-start;
+        padding-left: 2%;
+    }
+    
+    .header__h1 {
+        font-size: 14pt;
+    }
+}
