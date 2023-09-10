@@ -1,5 +1,5 @@
 console.log(window.location)
-let ruta = /puntoNet/
+let ruta = "/puntoNet/"
 
 export const navTemplate = //html
                 `
