@@ -1,12 +1,5 @@
 console.log(window.location)
-let ruta
-if(window.location.pathname === "/index.html") {
-    ruta = './'
-}
-
-else {
-    ruta = '../'
-}
+let ruta = /puntoNet/
 
 export const navTemplate = //html
                 `
