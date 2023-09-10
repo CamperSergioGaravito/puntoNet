@@ -1,7 +1,8 @@
-console.log(window.location)
 let ruta
+const location = window.location.pathname
 const host = '/puntoNet/'
-if(window.location.pathname === "/index.html") {
+
+if(location === "/index.html" || location === "/puntoNet/index.html") {
     ruta = './'
 }
 else {
@@ -12,7 +13,7 @@ export const navTemplate = //html
                 `
                 <ul class="nav__ul">
                     <li class="nav__li">
-                        <a href="./index.html" class="nav__a">
+                        <a href="${host}index.html" class="nav__a">
                             <img src="${ruta}/assets/iconos/home.svg" alt="" class="nav__imgIco">
                             Home
                         </a>
