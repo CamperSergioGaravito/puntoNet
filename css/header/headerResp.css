@@ -6,6 +6,7 @@
 @media (max-width:1000px) {
     .header {
         position: relative;
+        float: 0;
         border-bottom: 2px var(--bg-header) solid;
     }
 
@@ -36,12 +37,7 @@
     }
 }
 
-@media (max-width: 400px) {
-    .header {
-        justify-content: flex-start;
-        padding-left: 2%;
-    }
-    
+@media (max-width: 400px) {    
     .header__h1 {
         font-size: 12pt;
     }

@@ -1,0 +1,35 @@
+:root {
+    --bg-header: rgb(81, 43, 212);
+    --sombra-inset: rgba(120, 98, 201, 0.473);
+}
+
+.main__sectionA, .main__sectionB {
+    width: 98%;
+    height: 33vh;
+    display: flex;
+    align-items: center;
+}
+
+.main__sectionB {
+    flex-direction: row-reverse;
+}
+
+.main__contImg {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main__sectionAImg {
+    width: 94%;
+    height: 90%;
+}
+
+.main__pSectionA {
+    width: 80%;
+    font-size: 18pt;
+    line-height: 25pt;
+    text-align: justify;
+}

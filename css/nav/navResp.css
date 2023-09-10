@@ -9,18 +9,20 @@
     }
 }
 
-@media (max-width:1000px) {
+@media (max-width:999px) {
     body {
         position: relative;
     }
 
     .nav {
         display: none;
-        position: fixed;
+        position: absolute;
+        top: 10vh;
         right: 0;
         width: 30%;
         height: calc(100% - 10vh);
         box-shadow: inset 0 0 10px 3px var(--sombra-inset);
+        background-color: white;
     }
 
     .nav__ul {

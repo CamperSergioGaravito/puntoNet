@@ -6,25 +6,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- tittle -->
     <title>.Net</title>
-    <link rel="shortcut icon" href="./assets/logoNet.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="./assets/iconos/logoNet.svg" type="image/x-icon">
     <!-- css -->
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/header/header.css">
     <link rel="stylesheet" href="./css/header/headerResp.css">
     <link rel="stylesheet" href="./css/nav/nav.css">
     <link rel="stylesheet" href="./css/nav/navResp.css">
+    <link rel="stylesheet" href="./css/main/main.css">
+    <link rel="stylesheet" href="./css/main/mainResp.css">
+    <link rel="stylesheet" href="./css/footer/footer.css">
+    <link rel="stylesheet" href="./css/footer/footerResp.css">
 </head>
 <body>
-    <header class="header">
-        <img src="./assets/logoNet.svg" alt="logo .net framework" class="header__imgLogo">
+    <div class="contBtns">
+        <a href="#header" class="contBtns__btn">
+            <img src="./assets/arrow-dropup-circle.svg" alt="botón subir" class="contBtns__btnImg">
+        </a>
+        <a href="#footer" class="contBtns__btn">
+            <img src="./assets/arrow-dropdown-circle.svg" alt="botón subir" class="contBtns__btnImg">
+        </a>
+    </div>
+    <header class="header" id="header">
+        <img src="./assets/iconos/logoNet.svg" alt="logo .net framework" class="header__imgLogo">
         <h1 class="header__h1">¿Sabes la historia de .Net?</h1>
         <button class="header__menuBtn" hidden id="menu">
-            <img src="./assets/barras.svg" alt="icono botón menú" class="header__imgBtn">
+            <img src="./assets/iconos/barras.svg" alt="icono botón menú" class="header__imgBtn">
         </button>
     </header>
-    <nav class="nav" id="nav">
-        
-    </nav>
+    <nav class="nav" id="nav"></nav>
+
+    <main class="main">
+        <section class="main__sectionA">
+            <div class="main__contImg">
+                <img src="./assets/DotNet.svg" alt="Esquema de .NET Framework" class="main__sectionAImg">
+            </div>
+            <p class="main__pSectionA">
+                El <b>.NET</b> Framework es un entorno de desarrollo de software desarrollado por Microsoft que proporciona una plataforma integral y robusta para la creación y ejecución de una amplia variedad de aplicaciones. Esta tecnología, lanzada inicialmente en el año 2002, ha sido fundamental en el mundo de la programación, permitiendo a los desarrolladores construir aplicaciones Windows de alto rendimiento y escalables, así como aplicaciones web y servicios utilizando múltiples lenguajes de programación.
+            </p>
+        </section>
+        <section class="main__sectionB">
+            <div class="main__contImg">
+                <img src="./assets/CLR_diag.svg" alt="Esquema de .NET Framework" class="main__sectionAImg">
+            </div>
+            <p class="main__pSectionA">
+                El .NET Framework se basa en el concepto de un entorno de tiempo de ejecución común (Common Language Runtime o CLR) que administra la ejecución de código, brindando características como la gestión de memoria, la seguridad y la interoperabilidad entre lenguajes. Además, proporciona una amplia biblioteca de clases (la Biblioteca de Clases de .NET Framework) que simplifica el desarrollo al ofrecer funcionalidades predefinidas para tareas comunes.
+            </p>
+        </section>
+        <section class="main__sectionA">
+            <div class="main__contImg">
+                <img src="./assets/img1.svg" alt="Esquema de .NET Framework" class="main__sectionAImg">
+            </div>
+            <p class="main__pSectionA">
+                Una de las características más notables de .NET Framework es su capacidad para admitir múltiples lenguajes de programación, incluyendo C#, Visual Basic.NET y F#, lo que permite a los desarrolladores elegir el lenguaje que mejor se adapte a sus necesidades y preferencias.
+            </p>
+        </section>
+        <section class="main__sectionB">
+            <div class="main__contImg">
+                <img src="./assets/dotnet-framework-runtime.svg" alt="Esquema de .NET Framework" class="main__sectionAImg">
+            </div>
+            <p class="main__pSectionA">
+                A medida que la tecnología ha evolucionado, .NET Framework ha sido reemplazado en gran medida por .NET Core y, más recientemente, .NET 5 y posteriores, que son versiones más modernas y multiplataforma del framework original. Estas nuevas iteraciones continúan ofreciendo un entorno de desarrollo poderoso y versátil para construir aplicaciones de alto rendimiento en una variedad de plataformas, incluyendo Windows, Linux y macOS.
+            </p>
+        </section>
+        <section class="main__sectionA">
+            <div class="main__contImg">
+                <img src="./assets/cajaHerramientas.png" alt="Esquema de .NET Framework" class="main__sectionAImg">
+            </div>
+            <p class="main__pSectionA">
+                En resumen, el .NET Framework es una pieza fundamental en el mundo del desarrollo de software, proporcionando a los programadores las herramientas necesarias para crear aplicaciones de calidad y alto rendimiento en un entorno de desarrollo versátil y compatible con múltiples lenguajes. Su evolución hacia .NET Core y las versiones posteriores demuestra el compromiso de Microsoft con la mejora continua de esta tecnología para satisfacer las demandas cambiantes de la industria.
+            </p>
+        </section>
+    </main>
+
+    <footer class="footer" id="footer">
+        <div class="footer__contImg">
+            <img src="./assets/logoCampus.png" alt="logo Campuslands" class="footer__img">
+        </div>
+        <p class="footer__p">
+            Ésta es una página hecha como práctica para el área de software skills de Campus Lands
+        </p>
+        <p class="footer__p"> Sergio Garavito</p>
+        <p class="footer__p"> 2023</p>
+    </footer>
 
     <script src="./js/index.js" type="module"></script>
 </body>

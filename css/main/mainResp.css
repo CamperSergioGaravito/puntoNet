@@ -1,0 +1,38 @@
+:root {
+    --bg-header: rgb(81, 43, 212);
+    --sombra-inset: rgba(120, 98, 201, 0.473);
+}
+
+@media (max-width: 1200px) {
+    .main__pSectionA {
+        font-size: 14pt;
+    }
+
+    .main__sectionAImg {
+        height: 20vh;
+    }
+}
+
+@media (max-width: 900px) {
+    .main__pSectionA {
+        font-size: 12pt;
+    }
+}
+
+@media (max-width: 800px) {
+    .main__sectionA, .main__sectionB {
+        flex-direction: column;
+        width: 98%;
+        height: auto;
+        margin-bottom: 8%;
+    }
+
+    .main__contImg {
+        width: 40%;
+        height: 40%;
+    }
+
+    .main__sectionAImg {
+        height: 100%;
+    }
+}

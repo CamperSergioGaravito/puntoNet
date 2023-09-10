@@ -1,7 +1,10 @@
 import {navTemplate} from './nav.js';
 
+let intervalo = undefined
+
 /* nav */
-const nav = document.getElementById('nav');
+const nav = document.getElementById('nav')
+const header = document.getElementById('header')
 nav.innerHTML = navTemplate;
 
 /* botón menú */
@@ -12,5 +15,10 @@ btnMenu.addEventListener('click', () => {
     }
     else {
         nav.style.display = 'flex';
+        window.addEventListener('scroll', () => {
+            nav.style.display = 'none';
+        })
     }
 })
+
+
