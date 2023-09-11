@@ -1,11 +1,13 @@
-import {navTemplate} from './nav.js';
+import {navTemplate,footerTemplate} from './templates.js';
 
 let intervalo = undefined
 
 /* nav */
 const nav = document.getElementById('nav')
 const header = document.getElementById('header')
+const footer = document.getElementById('footer')
 nav.innerHTML = navTemplate;
+footer.innerHTML = footerTemplate
 
 /* botón menú */
 const btnMenu = document.getElementById('menu');

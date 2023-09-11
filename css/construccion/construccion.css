@@ -4,6 +4,10 @@ body {
     align-items: center;
 }
 
+.nav {
+    height: 20vh;
+}
+
 .gif {
     width: 80%;
 }
