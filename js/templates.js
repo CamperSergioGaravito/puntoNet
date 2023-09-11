@@ -4,7 +4,7 @@ const location = window.location.pathname
 let host;
 
 if(location === "/puntoNet/") {
-    host = "/puntoNet/";
+    host = "https://campersergiogaravito.github.io/puntoNet/";
 }
 else {
     host = "../"
