@@ -5,7 +5,7 @@ let host;
 
 alert(location.includes(".github.io"))
 
-if(location.includes(".github.io")) {
+if(window.location.hostname.includes(".github.io")) {
     host = "https://campersergiogaravito.github.io/puntoNet/";
 }
 else {
