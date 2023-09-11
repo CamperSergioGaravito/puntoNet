@@ -1,7 +1,14 @@
-/* console.log(window.location) */
+console.log(window.location)
 let ruta
 const location = window.location.pathname
-/* const host = '/puntoNet/' */
+let host;
+
+if(location === "/puntoNet/") {
+    host = "/puntoNet/";
+}
+else {
+    host = "../"
+}
 
 if(location === "/index.html" || location === "/puntoNet/index.html" || location === "/puntoNet/") {
     ruta = './'
