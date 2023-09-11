@@ -3,7 +3,9 @@ let ruta
 const location = window.location.pathname
 let host;
 
-if(location.includes("/puntoNet/")) {
+alert(location.includes(".github.io"))
+
+if(location.includes(".github.io")) {
     host = "https://campersergiogaravito.github.io/puntoNet/";
 }
 else {
