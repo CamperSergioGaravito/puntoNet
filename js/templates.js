@@ -3,7 +3,7 @@ let ruta
 const location = window.location.pathname
 let host;
 
-alert(location.includes(".github.io"))
+alert(window.location.hostname.includes(".github.io"))
 
 if(window.location.hostname.includes(".github.io")) {
     host = "https://campersergiogaravito.github.io/puntoNet/";
@@ -23,38 +23,38 @@ export const navTemplate = //html
                 `
                 <ul class="nav__ul">
                     <li class="nav__li">
-                        <a href="../index.html" class="nav__a">
-                            <img src="${ruta}/assets/iconos/home.svg" alt="" class="nav__imgIco">
+                        <a href="${host}index.html" class="nav__a">
+                            <img src="${ruta}assets/iconos/home.svg" alt="" class="nav__imgIco">
                             Home
                         </a>
                     </li>
                     <li class="nav__li">
-                        <a href="../pages/historia.html" class="nav__a">
-                            <img src="${ruta}/assets/iconos/list-box.svg" alt="" class="nav__imgIco">
+                        <a href="${host}pages/historia.html" class="nav__a">
+                            <img src="${ruta}assets/iconos/list-box.svg" alt="" class="nav__imgIco">
                             Historia
                         </a>
                     </li>
                     <li class="nav__li">
-                        <a href="../pages/construccion.html" class="nav__a">
-                            <img src="${ruta}/assets/iconos/biografia.svg" alt="" class="nav__imgIco">
+                        <a href="${host}pages/construccion.html" class="nav__a">
+                            <img src="${ruta}assets/iconos/biografia.svg" alt="" class="nav__imgIco">
                             Biografías
                         </a>
                     </li>
                     <li class="nav__li">
-                        <a href="../pages/construccion.html" class="nav__a">
-                            <img src="${ruta}/assets/iconos/cd.svg" alt="" class="nav__imgIco">
+                        <a href="${host}pages/construccion.html" class="nav__a">
+                            <img src="${ruta}assets/iconos/cd.svg" alt="" class="nav__imgIco">
                             Sistemas
                         </a>
                     </li>
                     <li class="nav__li">
-                        <a href="../pages/construccion.html" class="nav__a">
-                            <img src="${ruta}/assets/iconos/folder-tree.svg" alt="" class="nav__imgIco">
-                            Tabla evolutiva
+                        <a href="${host}pages/construccion.html" class="nav__a">
+                            <img src="${ruta}assets/iconos/coding.svg" alt="" class="nav__imgIco">
+                            Lenguajes
                         </a>
                     </li>
                     <li class="nav__li">
-                        <a href="../pages/construccion.html" class="nav__a">
-                            <img src="${ruta}/assets/iconos/bibliografia.svg" alt="" class="nav__imgIco">
+                        <a href="${host}pages/construccion.html" class="nav__a">
+                            <img src="${ruta}assets/iconos/bibliografia.svg" alt="" class="nav__imgIco">
                             Bibliografía
                         </a>
                     </li>
