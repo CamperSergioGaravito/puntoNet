@@ -1,0 +1,67 @@
+:root {
+    --bg-header: rgb(81, 43, 212);
+    --sombra-inset: rgba(120, 98, 201, 0.473);
+}
+
+.main__Lcard {
+    width: 90%;
+    border: 2px var(--bg-header) solid;
+    border-top: 1px var(--bg-header) solid;
+    border-left: 1px var(--bg-header) solid;
+    padding: 1%;
+    margin-bottom: 2%;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 5px 5px 5px 3px var(--sombra-inset);
+}
+
+.main__Limg {
+    width: 200px;
+    margin-bottom: 2%;
+    align-self: center;
+}
+
+.main__Lp {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 1% 0;
+    width: 90%;
+    font-size: 16pt;
+}
+
+b {
+    width: 80%;
+    margin-bottom: 1%;
+}
+
+@media (max-width: 768px) {
+    .main__Limg {
+        margin-bottom: 4%;
+        width: 30%;
+    }
+
+    b {
+        font-size: 18pt;
+    }
+
+    .main__Lp {
+        font-size: 12pt;
+        line-height: 20pt;
+    }
+}
+
+@media (max-width: 425px) {
+    .main__Lp {
+        font-size: 12pt;
+        margin-bottom: 4%;
+    }
+
+    b {
+        font-size: 12pt;
+        text-align: left;
+    }
+}

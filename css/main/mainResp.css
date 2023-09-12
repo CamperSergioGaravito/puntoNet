@@ -35,4 +35,8 @@
     .main__sectionAImg {
         height: 100%;
     }
+
+    .modSizeI {
+        width: 250px;
+    }
 }

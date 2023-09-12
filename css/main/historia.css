@@ -1,0 +1,74 @@
+:root {
+    --bg-header: rgb(81, 43, 212);
+    --sombra-inset: rgba(120, 98, 201, 0.473);
+}
+
+.main__HcontCard {
+    width: 80%;
+    margin: 2% 0;
+    padding: 2% 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px var(--bg-header) solid;
+    border-radius: 25px;
+    text-align: justify;line-height: 25pt;
+}
+
+.main__HpH {
+    width: 90%;
+    margin-bottom: 2%;
+    font-size: 14pt;
+}
+
+.main__Hh1 {
+    width: 80%;
+    margin-bottom: 2%;
+}
+
+.main__HvideoY {
+    width: 80%;
+    height: 90vh;
+    margin-bottom: 1%;
+    border-radius: 25px;
+    border: 4px var(--bg-header) solid;
+    cursor: pointer;
+}
+
+.main__Hh1T {
+    font-size: 24pt;
+    margin-bottom: 2%;
+}
+
+.main__HaR {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+    text-wrap: wrap;
+    cursor: pointer;
+}
+
+.main__HpR {
+    width: 80%;
+}
+
+.main__HcontDobCard {
+    width: 80%;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.main__HcontDobCard > .main__HcontCard {
+    width: 100%;
+    padding: 3%;
+}
+
+.main__HpResume {
+    width: 80%;
+    height: 30vh;
+    font-size: 18pt;
+    line-height: 25pt;
+    text-align: justify ;
+}

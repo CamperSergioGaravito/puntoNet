@@ -1,9 +1,7 @@
-console.log(window.location)
+/* console.log(window.location) */
 let ruta
 const location = window.location.pathname
 let host;
-
-alert(window.location.hostname.includes(".github.io"))
 
 if(window.location.hostname.includes(".github.io")) {
     host = "https://campersergiogaravito.github.io/puntoNet/";
@@ -35,27 +33,21 @@ export const navTemplate = //html
                         </a>
                     </li>
                     <li class="nav__li">
-                        <a href="${host}pages/construccion.html" class="nav__a">
-                            <img src="${ruta}assets/iconos/biografia.svg" alt="" class="nav__imgIco">
-                            Biografías
+                        <a href="${host}pages/infografia.html" class="nav__a">
+                            <img src="${ruta}assets/iconos/bookmarks.svg" alt="" class="nav__imgIco">
+                            Infografía
                         </a>
                     </li>
                     <li class="nav__li">
-                        <a href="${host}pages/construccion.html" class="nav__a">
-                            <img src="${ruta}assets/iconos/cd.svg" alt="" class="nav__imgIco">
-                            Sistemas
-                        </a>
-                    </li>
-                    <li class="nav__li">
-                        <a href="${host}pages/construccion.html" class="nav__a">
+                        <a href="${host}pages/lenguajes.html" class="nav__a">
                             <img src="${ruta}assets/iconos/coding.svg" alt="" class="nav__imgIco">
                             Lenguajes
                         </a>
                     </li>
                     <li class="nav__li">
-                        <a href="${host}pages/construccion.html" class="nav__a">
-                            <img src="${ruta}assets/iconos/bibliografia.svg" alt="" class="nav__imgIco">
-                            Bibliografía
+                        <a href="${host}pages/sistema-operativo.html" class="nav__a">
+                            <img src="${ruta}assets/iconos/cd.svg" alt="" class="nav__imgIco">
+                            Sistemas
                         </a>
                     </li>
                 </ul>
@@ -72,3 +64,16 @@ export const footerTemplate = //html
                             <p class="footer__p"> Sergio Garavito</p>
                             <p class="footer__p"> 2023</p>
                             `
+
+export const contBtnsAuxTemplate = //html
+                                `
+                                <button class="contBtns__btn circulo" id="printPdf">
+                                    <img src="${ruta}assets/md-print.svg" alt="botón subir" class="contBtns__btnImg">
+                                </button>
+                                <a href="#header" class="contBtns__btn">
+                                    <img src="${ruta}assets/arrow-dropup-circle.svg" alt="botón subir" class="contBtns__btnImg">
+                                </a>
+                                <a href="#footer" class="contBtns__btn">
+                                    <img src="${ruta}assets/arrow-dropdown-circle.svg" alt="botón subir" class="contBtns__btnImg">
+                                </a>
+                                `

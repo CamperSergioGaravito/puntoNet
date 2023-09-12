@@ -7,7 +7,6 @@
     .header {
         justify-content: flex-start;
         position: relative;
-        float: 0;
         border-bottom: 2px var(--bg-header) solid;
     }
 

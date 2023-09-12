@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- tittle -->
     <title>Historia</title>
-    <link rel="shortcut icon" href="../assets/iconos/logoNet.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="../assets/iconos/pnet.svg" type="image/x-icon">
     <!-- css -->
     <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="../css/header/header.css">
@@ -18,16 +18,11 @@
     <link rel="stylesheet" href="../css/footer/footer.css">
     <link rel="stylesheet" href="../css/footer/footerResp.css">
     <link rel="stylesheet" href="../css/main/historia.css">
+    <link rel="stylesheet" href="../css/main/historiaResp.css">
 </head>
 <body>
-    <div class="contBtns">
-        <a href="#header" class="contBtns__btn">
-            <img src="../assets/arrow-dropup-circle.svg" alt="botón subir" class="contBtns__btnImg">
-        </a>
-        <a href="#footer" class="contBtns__btn">
-            <img src="../assets/arrow-dropdown-circle.svg" alt="botón subir" class="contBtns__btnImg">
-        </a>
-    </div>
+    <div class="contBtns" id="contBtnsAux"> </div>
+    
     <header class="header" id="header">
         <img src="../assets/iconos/logoNet.svg" alt="logo .net framework" class="header__imgLogo">
         <h1 class="header__h1">¿Sabes la historia de .Net?</h1>
@@ -37,7 +32,93 @@
     </header>
     <nav class="nav" id="nav"></nav>
 
-    <main class="main"></main>
+    <main class="main">
+        <div class="main__HcontCard">
+            <h1 class="main__Hh1T">Borlan y Microsoft</h1>
+            <p class="main__HpH">
+                La lucha comercial entre Borland y Microsoft en la década de 1990 fue un enfrentamiento notorio en el mundo del desarrollo de software. Además, la adquisición de Anders Hejlsberg por Microsoft desempeñó un papel clave en esta rivalidad. 
+            </p>
+            <p class="main__HpH">
+                A principios de la década de 1990, Borland International, una empresa de software con sede en California, se destacó como un competidor líder en el mercado de herramientas de desarrollo de software, gracias a productos como Turbo Pascal y Borland C++.
+            </p>
+            <p class="main__HpH">
+                Microsoft, por otro lado, estaba emergiendo como un gigante del software y buscaba expandir su influencia en el mercado de desarrollo de software.
+            </p>
+            <p class="main__HpH">
+                La rivalidad entre Borland y Microsoft se intensificó cuando ambas empresas compitieron en el mercado de entornos de desarrollo integrados (IDE) y compiladores. Borland lanzó su IDE estrella, Borland Delphi, en 1995. Delphi se convirtió en un competidor formidable para el entorno de desarrollo Visual Studio de Microsoft.
+            </p>
+            <p class="main__HpH">
+                El lenguaje de programación C# y el entorno de desarrollo Visual C# de Microsoft, lanzados en 2000, fueron vistos como una respuesta directa a Delphi de Borland.
+            </p>
+            <p class="main__HpH">
+                Anders Hejlsberg, un programador danés y uno de los talentos más destacados en el desarrollo de lenguajes de programación y compiladores, trabajaba en Borland y fue el principal arquitecto detrás de Delphi. Hejlsberg había ganado una gran reputación por su trabajo en Turbo Pascal y Delphi, lo que lo convirtió en una figura clave en Borland y una parte esencial de su éxito en el mercado de desarrollo de software.
+            </p>
+            <p class="main__HpH">
+                En 1996, Microsoft logró un movimiento estratégico al adquirir a Anders Hejlsberg y traerlo a su equipo de desarrollo de herramientas. La adquisición de Hejlsberg fue un golpe significativo para Borland, ya que perdió a una de sus mentes más brillantes en el campo del desarrollo de IDE y lenguajes de programación. Hejlsberg desempeñó un papel crucial en la creación de C# y en el desarrollo de la plataforma .NET de Microsoft, que se convirtió en una competencia directa para Borland Delphi.
+            </p>
+            <p class="main__HpH">
+                La adquisición de Hejlsberg por Microsoft fortaleció la posición de la empresa en la competencia con Borland y contribuyó a la creación de tecnologías clave como C# y .NET Framework.
+            </p>
+            <p class="main__HpH">
+                A lo largo de los años, Borland enfrentó dificultades financieras y cambios en su enfoque de negocio, mientras que Microsoft se consolidó como un líder en el desarrollo de software empresarial.
+            </p>
+        </div>
+        <iframe class="main__HvideoY" src="https://www.youtube-nocookie.com/embed/fuTDzzarQGg?si=XMZFhNzuYJQLKOGQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <p class="main__HpR">
+            Video tomado del blog de EDteam, en su artículo <a target="_blank" href="https://ed.team/blog/que-es-net-guia-definitiva-para-entender-la-plataforma-de-microsoft" class="main__HaR">¿Qué es .NET? Guía definitiva para entender la plataforma de Microsoft</a>
+        </p>
+        <div class="main__HcontCard">
+            <h1 class="main__Hh1">Inicio de .NET (2000)</h1>
+            <p class="main__Hp">
+                Microsoft anunció por primera vez el proyecto .NET en el año 2000. En ese momento, .NET era visto como una plataforma para el desarrollo de aplicaciones basadas en Windows y se centraba en lenguajes de programación como C# y Visual Basic.
+            </p>
+        </div>
+        <div class="main__HcontCard">
+            <h1 class="main__Hh1">Lanzamiento de .NET Framework (2002)</h1>
+            <p class="main__Hp">
+                En febrero de 2002, Microsoft lanzó la primera versión de .NET Framework, que proporcionaba una amplia biblioteca de clases y servicios para desarrollar aplicaciones Windows. También se introdujo ASP.NET para el desarrollo de aplicaciones web.
+            </p>
+        </div>
+        <div class="main__HcontDobCard">
+            <div class="main__HcontCard">
+                <h1 class="main__Hh1">Expansión de .NET (2003-2007)</h1>
+                <p class="main__Hp">
+                    Durante este período, Microsoft continuó mejorando .NET y expandiendo su alcance. Se lanzaron varias versiones de .NET Framework, y se introdujo Windows Presentation Foundation (WPF) para el desarrollo de aplicaciones de interfaz de usuario de alta calidad. También se creó Windows Communication Foundation (WCF) para la construcción de servicios web.
+                </p>
+            </div>
+            <div class="main__HcontCard">
+                <h1 class="main__Hh1">Lanzamiento de Silverlight (2007)</h1>
+                <p class="main__Hp">
+                    Microsoft lanzó Silverlight, una tecnología web que permitía la creación de aplicaciones web ricas y multimedia. Silverlight se basaba en gran medida en .NET y se utilizaba para crear experiencias interactivas en la web.
+                </p>
+            </div>
+        </div>
+        <div class="main__HcontCard">
+            <h1 class="main__Hh1">.NET Core (2016)</h1>
+            <p class="main__Hp">
+                En 2016, Microsoft anunció .NET Core, una versión modular y multiplataforma de .NET. .NET Core estaba diseñado para ser compatible con Windows, macOS y Linux, y permitía a los desarrolladores crear aplicaciones .NET en diversas plataformas. Esta fue una parte importante de la estrategia de Microsoft para el desarrollo de software de código abierto y multiplataforma.
+            </p>
+        </div>
+        <div class="main__HcontCard">
+            <h1 class="main__Hh1">Unificación de .NET Core y .NET Framework (2020)</h1>
+            <p class="main__Hp">
+                Microsoft decidió unificar .NET Core y .NET Framework bajo el nombre de ".NET 5". Esto marcó un cambio significativo, ya que ambas tecnologías se fusionaron en una sola plataforma. A partir de este momento, .NET se convirtió en una plataforma única y coherente para el desarrollo de aplicaciones en cualquier plataforma.
+            </p>
+        </div>
+        <div class="main__HcontCard">
+            <h1 class="main__Hh1">Versiones posteriores de .NET (2021 en adelante)</h1>
+            <p class="main__Hp">
+                Después de .NET 5, Microsoft continuó lanzando versiones posteriores de .NET, como .NET 6 y posteriores. Estas versiones han seguido mejorando la plataforma, agregando nuevas características y mejorando el rendimiento.
+            </p>
+        </div>
+        <div class="main__HcontCard">
+            <h1 class="main__Hh1">Proyectos de código abierto</h1>
+            <p class="main__Hp">
+                Microsoft ha adoptado una mentalidad de código abierto en torno a .NET, lo que significa que la comunidad de desarrolladores puede contribuir al desarrollo de la plataforma. También ha lanzado .NET como un proyecto de código abierto bajo el nombre ".NET Foundation".
+            </p>
+        </div>
+
+    </main>
 
     <footer class="footer" id="footer"></footer>
     <script type="module" src="../js/index.js"></script>

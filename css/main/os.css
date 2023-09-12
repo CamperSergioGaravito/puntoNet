@@ -1,0 +1,48 @@
+.main__OSimg {
+    width: 70%;
+}
+
+.modSize {
+    width: 80%;
+}
+
+.main__OSdef {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+
+.main__sectionA,.main__sectionB {
+    width: 80%;
+}
+
+.main__OSh1 {
+    text-align: center;
+    margin: 3% 0;
+}
+
+.main__OSp {
+    margin: 2% 0;
+    text-align: justify;
+    line-height: 20pt;
+    font-size: 18pt;
+}
+
+@media (max-width: 768px) {
+    .main__OSimg {
+        margin: 10% 0;
+    }
+
+    .modSize {
+        width: 100%;
+    }
+
+    .main__OSp {
+        font-size: 14pt;
+    }
+
+    .main__sectionA,.main__sectionB {
+        width: 96%;
+    }
+}

@@ -1,4 +1,4 @@
-import {navTemplate,footerTemplate} from './templates.js';
+import {navTemplate,footerTemplate,contBtnsAuxTemplate} from './templates.js';
 
 let intervalo = undefined
 
@@ -6,8 +6,10 @@ let intervalo = undefined
 const nav = document.getElementById('nav')
 const header = document.getElementById('header')
 const footer = document.getElementById('footer')
-nav.innerHTML = navTemplate;
+const contBtns = document.getElementById('contBtnsAux')
+nav.innerHTML = navTemplate
 footer.innerHTML = footerTemplate
+contBtns.innerHTML = contBtnsAuxTemplate
 
 /* botón menú */
 const btnMenu = document.getElementById('menu');
@@ -21,6 +23,11 @@ btnMenu.addEventListener('click', () => {
             nav.style.display = 'none';
         })
     }
+})
+
+const printPdf = document.getElementById('printPdf')
+printPdf.addEventListener('click', () => {
+    window.print()
 })
 
 

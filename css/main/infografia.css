@@ -1,0 +1,59 @@
+.modSize {
+    width: 30%;
+}
+
+.main__INFul {
+    width: 85%;
+}
+
+.main__INFli {
+    font-size: 14pt;
+    margin-bottom: 2%;
+}
+
+.main__INFbmod {
+    margin: 0;
+    margin-right: 1%;
+    display: flex;
+    width: 100%;
+}
+
+.main__INFbT {
+    width: 100%;
+}
+
+
+@media (max-width: 768px) {
+    .modSize {
+        width: 80%;
+    }
+
+    .main__INFb {
+        font-size: 12pt;
+        text-align: justify;
+    }
+
+    .main__INFli {
+        font-size: 12pt;
+        margin-bottom: 5%;
+    }
+
+    .main__INFbmod {
+        text-align: left;
+        font-size: 12pt;
+    }
+
+    .main__Lcard {
+        padding: 10% 0;
+    }
+
+    .main__INFbT {
+        font-size: 14pt;
+    }
+}
+
+@media (max-width: 425px) {
+    .modSize {
+        width: 80%;
+    }
+}

@@ -1,13 +1,37 @@
-body {
+.gif {
+    width: 40%;
+    height: 90%;
+}
+
+.main__ConsMain {
+    width: 100%;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.nav {
-    height: 20vh;
+@media (max-width: 1024px) {
+    .gif {
+        width: 60%;
+    }
 }
 
-.gif {
-    width: 80%;
+@media (max-width: 768px) {
+    .main {
+        position: relative;
+    }
+    .nav {
+        position: absolute;
+        top: 10vh;
+        height: 70vh;
+        z-index: 100;
+    }
+}
+
+@media (max-width: 425px) {
+    .gif {
+        width: 90%;
+        height: 80%;
+    }
 }

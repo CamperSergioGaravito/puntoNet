@@ -1,0 +1,118 @@
+:root {
+    --bg-header: rgb(81, 43, 212);
+    --sombra-inset: rgba(120, 98, 201, 0.473);
+}
+
+@media (max-width: 1024px) {
+    .main__HcontCard {
+        font-size: 10pt;
+    }
+
+    .main__HcontDobCard > .main__HcontCard > .main__Hp {
+        width: 90%;
+        line-height: 20pt;
+    }
+
+    .main__HcontDobCard > .main__HcontCard > .main__Hh1 {
+        font-size: 18pt;
+    }
+
+    .main__HvideoY {
+        height: 60vh;
+    }
+
+    .main__HpR {
+        margin-bottom: 2%;
+    }
+}
+
+@media (max-width: 768px) {
+    .main__HcontCard {
+        font-size: 10pt;
+    }
+
+    .main__HcontCard > .main__Hp {
+        line-height: 18pt;
+        width: 90%;
+    }
+
+    .main__HcontCard > .main__Hh1 {
+        font-size: 14pt;
+    }
+
+    .main__HcontDobCard > .main__HcontCard > .main__Hp {
+        width: 90%;
+        line-height: 14pt;
+    }
+
+    .main__HcontDobCard > .main__HcontCard > .main__Hh1 {
+        font-size: 12pt;
+    }
+
+    .main__HpResume {
+        font-size: 12pt;
+    }
+
+    .main__HvideoY {
+        margin: 8% 0 3% 0;
+    }
+}
+
+@media (max-width: 425px) {
+    .main__HpH {
+        font-size: 10pt;
+    }
+
+    .main__Hh1T {
+        font-size: 18pt;
+    }
+
+    .main__HvideoY {
+        width: 90%;
+        height: 28vh;
+    }
+
+    .main__HpR {
+        font-size: 10pt;
+    }
+
+    .main__HcontCard {
+        width: 90%;
+        font-size: 8pt;
+    }
+
+    .main__HcontCard > .main__Hp {
+        line-height: 12pt;
+    }
+
+    .main__HcontCard > .main__Hh1 {
+        font-size: 12pt;
+        line-height: 14pt;
+        text-align: center;
+    }
+
+    .main__HcontDobCard {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .main__HcontDobCard > .main__HcontCard {
+        width: 100%;
+    }
+
+    .main__HcontDobCard > .main__HcontCard > .main__Hp {
+        width: 90%;
+        line-height: 14pt;
+    }
+
+    .main__HcontDobCard > .main__HcontCard > .main__Hh1 {
+        font-size: 12pt;
+    }
+
+    .main__HpResume {
+        font-size: 12pt;
+        line-height: 14pt;
+        margin-bottom: 5%;
+    }
+}
